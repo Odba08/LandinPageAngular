@@ -1,0 +1,29 @@
+.grid {
+    
+    display: inline-block;
+    width: 25%;
+    gap: 1rem;
+    
+}
+.card{
+    width: 90%;
+    margin-left: 1em;
+
+  
+}
+.card-text, .card-textt {
+   
+    text-align: center;
+    font-weight: bolder;
+    
+
+}
+
+img {
+    opacity: 1.0;
+    cursor: pointer;
+  }
+  
+  img:hover {
+    opacity: 0.5;
+  }

@@ -1,0 +1,49 @@
+<app-header></app-header>
+
+<div class="humanizing">
+
+  <div class="humanizing-text">
+  
+        
+  
+    <h1>Visualiza y compra a comodidad.</h1>
+    <p>
+    Puedes obtener tus productos con un solo click, teniendo la comodidas y disponibilidad a la mano. Podras visualizar y familiarizarte con nuestro producto.
+    </p>
+
+
+    <button class="view-plans">Ver productos</button>
+
+  </div>
+
+  <div class="humanizing-image">
+    <img src="./assets/4.png" alt="image intro" id="photo" width="900" height="400">
+  </div>
+
+
+  
+</div>
+  
+   
+    <div class="titulo_">
+      <h2>Catalogo</h2>
+    </div>
+
+
+
+<div class="grid" *ngFor="let item of resultados">
+  
+  
+      <div class="card">
+        <img [src]="item.images[0]" [alt]="item.title"
+        class="card-img-top" id="imagenes">
+        <h5 class="card-textt">{{item.title}} </h5>
+        <p class="card-text">
+        {{item.price}} $
+         </p>
+      </div>
+
+  </div>
+  
+  <app-footer></app-footer>
+  
